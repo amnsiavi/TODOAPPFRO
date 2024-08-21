@@ -1,0 +1,6 @@
+<div>
+  <button [class.active]="selected" (click)="onSelectedUser()">
+    <img [src]="imagePath" [alt]="users.id" />
+    <span>{{ users.name }}</span>
+  </button>
+</div>
